@@ -146,6 +146,45 @@
     border-radius: 1rem;
 }
 
+.basestat {
+    background-color: #fff;
+    font-size: 12px;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    align-items: center;
+    min-width: 298px;
+    height: 140px;
+    margin-left: -16px;
+    margin-top: -22px;
+}
+
+.basestat .stats {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: dimgray;
+    padding-left: 10px;
+  
+}
+
+img {
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(10px 10px 10px black);
+}
+
+.basestat ul {
+    list-style-type: none;
+    text-transform: capitalize;
+    padding: 0;
+    line-height: 18px;
+}
+
+.progress {
+    height: 3px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
 @media screen and (min-width: 380px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;
