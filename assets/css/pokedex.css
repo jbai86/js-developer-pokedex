@@ -6,6 +6,10 @@
     list-style: none;
 }
 
+.content {
+    border: 12px solid #CE2211;
+}
+
 .normal {
     background-color: #a6a877;
 }

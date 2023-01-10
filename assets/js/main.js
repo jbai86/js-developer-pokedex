@@ -51,7 +51,7 @@ function convertPokemonToLi(pokemon) {
                                    <div class="col-5">
                                         <ul>
                                         ${pokemon.baseStats.map((baseStat) => `<div class="progress">
-  <div class="progress-bar" role="progressbar" style="width: ${baseStat}%" aria-valuenow="${baseStat}" aria-valuemin="0" aria-valuemax="160"></div>
+  t<div class="progress-bar" role="progressbar" style="width: ${baseStat}%" aria-valuenow="${baseStat}" aria-valuemin="0" aria-valuemax="160"></div>
 </div>`).join('')}
                                         </ul>  
                                    </div>
